@@ -9,7 +9,6 @@ A lightweight [Model Context Protocol (MCP)](https://modelcontextprotocol.io/ove
 - ⚙️ GitHub API integration via MCP tools
 - 🤖 LLM-friendly schema for interaction with AI agents
 - 🔐 Optional authentication support
-- 📄 Auto-generated OpenAPI & MCP schemas
 - 🧩 Easy to extend with new GitHub operations
 
 ---
