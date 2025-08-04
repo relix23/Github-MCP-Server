@@ -26,7 +26,7 @@ This server currently supports the following GitHub features as callable MCP too
 | `create_pull_request_with_branch`            | Creates a new branch and then a pull request on GitHub                            |
 | `create_github_issue`                        | Creates an issue on a GitHub repository                                           |
 
-> ✅ More tools can be added easily by decorating a Python function with `@tool()`.
+> ✅ More tools can be added easily by decorating a Python function with `@mcp.tool()`.
 
 ---
 
@@ -47,15 +47,16 @@ This server currently supports the following GitHub features as callable MCP too
    uv pip install -r requirements.txt
 
 3. **Configure Github Access Token:**
+   - Create a **.env** file and copy contents from **.env.example** to **.env**
+   - Replace **GITHUB_TOKEN** with your own Github Access Token. You can generate one from [here](https://github.com/settings/tokens)
    ```bash
    GITHUB_TOKEN = "<GITHUB_TOKEN>"
    ```
-   Replace **<GITHUB_TOKEN>** with your own Github Access Token. You can generate one from [here](https://github.com/settings/tokens)
+   
 
+5. **Download and install Claude Desktop** - [Claude Desktop](https://claude.ai/download)
 
-4. **Download and install Claude Desktop** - [Claude Desktop](https://claude.ai/download)
-
-5. **Install MCP Server in Claude:**  
+6. **Install MCP Server in Claude:**  
    - Activate Virtual Environment:  
    ```bash
    .venv\Scripts\activate
@@ -66,7 +67,7 @@ This server currently supports the following GitHub features as callable MCP too
    uv run mcp install main.py
    ```
 
-6. **Now you are all set to use this custom Github-MCP-Server in your Claude Desktop**
+7. **Now you are all set to use this custom Github-MCP-Server in your Claude Desktop**
 
 
 ## 🙌 Acknowledgments
